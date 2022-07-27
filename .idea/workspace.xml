@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea33e719-3f21-4d57-9ee9-4217d5aaef47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designPattern_Singleton.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/AClazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/BClazz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/AC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/Electronic110V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/Electronic220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/HairDryer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/SocketAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adaptor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aop/AopBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/BrowserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/Html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/IBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/proxy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designPattern_Singleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designPattern.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,10 +57,23 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="proxy.Main" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.Test" />
-      <module name="designPattern_Singleton" />
+      <module name="designPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="singleton.*" />
@@ -66,8 +84,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="adaptor.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adaptor.Test" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adaptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="designPattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="designPattern" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.adaptor.Test" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -80,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658813014748</updated>
-      <workItem from="1658813016098" duration="2867000" />
+      <workItem from="1658813016098" duration="10283000" />
     </task>
     <servers />
   </component>
@@ -97,5 +143,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
